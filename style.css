@@ -272,6 +272,19 @@ footer p {
 }
 
 @media (max-width: 560px) {
+    header {
+        padding: 18px 20px;
+    }
+
+    nav ul {
+        gap: 12px;
+    }
+
+    .hero {
+        min-height: auto;
+        padding: 24px 0;
+    }
+
     .hero-content {
         padding: 32px 22px;
     }
@@ -280,8 +293,68 @@ footer p {
         font-size: 2.4rem;
     }
 
+    .hero-content p,
+    .info p,
+    .features ul,
+    .page-title p,
+    .course-card p,
+    .card p {
+        font-size: 0.98rem;
+    }
+
     .btn {
         width: 100%;
         text-align: center;
+    }
+
+    .card,
+    .course-card,
+    .category-card,
+    .page-title,
+    footer {
+        padding: 22px;
+    }
+}
+
+@media (max-width: 420px) {
+    header {
+        padding: 14px 16px;
+    }
+
+    .logo a {
+        font-size: 24px;
+    }
+
+    nav ul {
+        gap: 10px;
+    }
+
+    .hero-content {
+        padding: 24px 18px;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content p,
+    .info p,
+    .features ul,
+    .page-title p,
+    .course-card p,
+    .card p {
+        font-size: 0.95rem;
+    }
+
+    .card,
+    .course-card,
+    .category-card,
+    .page-title,
+    footer {
+        padding: 18px;
+    }
+
+    .category-card {
+        min-height: auto;
     }
 }
