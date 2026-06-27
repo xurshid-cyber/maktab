@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../visual studio code/Boshlang'ich ta'lim"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "maktab-main"
+	}
+}

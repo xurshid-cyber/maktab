@@ -4,19 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="1-11 sinflar uchun sinf bo'yicha darsliklar va ta'lim resurslari. Har bir sinf uchun tezkor kirish.">
     <link rel="stylesheet" href="style.css">
-    <title>Sinflar</title>
+    <title>Sinflar | Maktab Ta'lim Portali</title>
 </head>
 
 <body>
     <header>
         <div class="logo"><a href="index.html">Maktab</a></div>
-        <nav>
+        <nav aria-label="Asosiy navigatsiya">
             <ul>
                 <li><a href="index.html">Bosh sahifa</a></li>
                 <li><a href="sinflar.html">Sinflar</a></li>
-                <li><a href="#">Kutubxona</a></li>
-                <li><a href="#">Bog'lanish</a></li>
+                <li><a href="boshlang'ich.html">Fanlar</a></li>
+                <li><a href="#boglanish">Bog'lanish</a></li>
             </ul>
         </nav>
         <div class="login">
@@ -26,24 +28,103 @@
     <main>
         <section class="page-title">
             <h1>Sinflar</h1>
-            <p>Ushbu bo'limda darsliklar, videolar va mavzular bo'yicha turli ta'lim resurslari mavjud.</p>
+            <p>1-11 sinflar uchun ta'lim yo'nalishlari va sinf bo'yicha resurslarni bir sahifada toping.</p>
         </section>
 
-        <section class="category-list">
-            <a class="category-card" href="boshlang'ich.html">Boshlang'ich ta'lim</a>
-            <a class="category-card" href="#">O'rta ta'lim</a>
-            <a class="category-card" href="#">Yuqori ta'lim</a>
+        <section class="grade-grid" aria-label="Sinf guruhlari">
+            <a class="grade-card" href="boshlang'ich.html">
+                <h3>1-4 sinflar</h3>
+                <p>Boshlang'ich ta'lim: alifbe, o'qish, matematika va tabiat mavzulari.</p>
+            </a>
+            <a class="grade-card" href="5-sinf.html">
+                <h3>5-7 sinflar</h3>
+                <p>O'rta sinf: ingliz tili, tabiiy fanlar va tarix bo'yicha chuqurlik.</p>
+            </a>
+            <a class="grade-card" href="8-sinf.html">
+                <h3>8-11 sinflar</h3>
+                <p>Yuqori sinf: nazorat ishlar, sinovga tayyorlov va mukammal o'quv rejalari.</p>
+            </a>
+        </section>
+
+        <section class="section-intro">
+            <span>Sinf tanlang</span>
+            <h2>To‘g‘ridan-to‘g‘ri sinf sahifasiga o‘tish</h2>
+            <p>Quyidagi sinf kartalarini bosib, kerakli sinfga kirishingiz mumkin.</p>
+        </section>
+
+        <section class="course-list" aria-label="Sinflar ro'yxati">
+            <a class="course-card" href="1-sinf.html">
+                <h2>1-sinf</h2>
+                <p>Boshlang‘ich o‘qish va matematika resurslari.</p>
+            </a>
+            <a class="course-card" href="2-sinf.html">
+                <h2>2-sinf</h2>
+                <p>Ikkinchi sinf mavzulari va yangi o‘quv materiallari.</p>
+            </a>
+            <a class="course-card" href="3-sinf.html">
+                <h2>3-sinf</h2>
+                <p>Uchinchi sinf uchun interaktiv darslar va mashqlar.</p>
+            </a>
+            <a class="course-card" href="4-sinf.html">
+                <h2>4-sinf</h2>
+                <p>To‘rtinchi sinf resurslari va tayyorlov mashqlari.</p>
+            </a>
+            <a class="course-card" href="5-sinf.html">
+                <h2>5-sinf</h2>
+                <p>Beshinchi sinf fanlari va o‘quv materiallari.</p>
+            </a>
+            <a class="course-card" href="6-sinf.html">
+                <h2>6-sinf</h2>
+                <p>Oltinchi sinf darsliklari va qo‘shimcha mavzular.</p>
+            </a>
+            <a class="course-card" href="7-sinf.html">
+                <h2>7-sinf</h2>
+                <p>Yettinchi sinf fanlari bilan chuqurlashtirilgan o‘rganish.</p>
+            </a>
+            <a class="course-card" href="8-sinf.html">
+                <h2>8-sinf</h2>
+                <p>Sakkizinchi sinf nazariyasi va tayyorlov bo‘limi.</p>
+            </a>
+            <a class="course-card" href="9-sinf.html">
+                <h2>9-sinf</h2>
+                <p>To‘qqizinchi sinf darslari va bilimlarni mustahkamlash.</p>
+            </a>
+            <a class="course-card" href="10-sinf.html">
+                <h2>10-sinf</h2>
+                <p>O‘ninchi sinfga mo‘ljallangan kurslar.</p>
+            </a>
+            <a class="course-card" href="11-sinf.html">
+                <h2>11-sinf</h2>
+                <p>O‘n birinchi sinf sinovga tayyorlov va chuqur o‘rganish uchun.</p>
+            </a>
         </section>
 
         <section class="info">
-            <h2>Resurslarimizning afzalliklari</h2>
-            <ul>
-                <li>Har bir mavzu uchun qulay darsliklar va videolar.</li>
-                <li>Fanlarni oson tushunish uchun vizual va amaliy materiallar.</li>
-                <li>O'quvchilarga tezkor mavzu qidirish va o'rganish imkoniyati.</li>
+            <h2>Sinflar uchun moslashtirilgan material</h2>
+            <ul class="feature-list">
+                <li>Har bir sinf uchun aniq bo'lim va izchil mavzular.</li>
+                <li>Darslarni bosqichma-bosqich o'rganish va takrorlash uchun qulay struktura.</li>
+                <li>O'qituvchilar va ota-onalar uchun oson boshqariladigan resurslar.</li>
             </ul>
         </section>
     </main>
+    <footer id="boglanish">
+        <div class="footer-grid">
+            <div>
+                <p><strong>Manzil:</strong> O'zbekiston, Toshkent shahri</p>
+                <p><strong>Telefon:</strong> +998 90 123 45 67</p>
+                <p><strong>Email:</strong> info@maktab.uz</p>
+            </div>
+            <div class="footer-links">
+                <a href="index.html">Bosh sahifa</a>
+                <a href="sinflar.html">Sinflar</a>
+                <a href="boshlang'ich.html">Fanlar</a>
+                <a href="index.html#boglanish">Bog'lanish</a>
+            </div>
+        </div>
+        <div class="footer-bottom">© 2026 Maktab Ta'lim Portali. 1-11 sinflar uchun moslashtirilgan resurslar.</div>
+    </footer>
+    <script src="script.js" defer></script>
 </body>
 
 </html>

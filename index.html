@@ -4,18 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="1-11 sinflar uchun professional ta'lim portali. Darsliklar, resurslar va fan bo'limlari bir joyda.">
     <link rel="stylesheet" href="style.css">
-    <title>Ta'lim resurslari</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://youtu.be/DLNckQc36Vs?si=_FX6pt118s8APRJI">
+    <title>Maktab Ta'lim Portali | 1-11 sinflar</title>
 </head>
 
 <body>
     <header>
-        <div class="logo"><a href="index.html">Ta'lim</a></div>
-        <nav>
+        <div class="logo"><a href="index.html">Maktab</a></div>
+        <nav aria-label="Asosiy navigatsiya">
             <ul>
                 <li><a href="index.html">Bosh sahifa</a></li>
                 <li><a href="sinflar.html">Sinflar</a></li>
-                <li><a href="#kutubxona">Kutubxona</a></li>
+                <li><a href="boshlang'ich.html">Fanlar</a></li>
                 <li><a href="#boglanish">Bog'lanish</a></li>
             </ul>
         </nav>
@@ -24,49 +27,104 @@
         </div>
     </header>
     <main>
-        <section class="hero">
+        <section class="hero" aria-labelledby="hero-title">
             <div class="hero-content">
-                <h1>Ta'lim, darsliklar va videolar bir joyda</h1>
-                <p>Bu sayt boshlang'ich fanlar bo'yicha darsliklar, videolar va mavzularni topishga yordam beradi.</p>
-                <a class="btn" href="sinflar.html">Resurslarni ko'rish</a>
-            </div>
-        </section>
-
-        <section class="info" id="kutubxona">
-            <h2>Biz haqimizda</h2>
-            <p>Ushbu sayt ta'lim va o'rganishni qulaylashtiradi: darsliklar, videolar va mavzularni bir joyda taqdim
-                etadi.</p>
-            <div class="cards">
-                <div class="card">
-                    <h3>Missiyamiz</h3>
-                    <p>Bilim olishni oson va qiziqarli qilish, har bir mavzu uchun aniq resurslarni taqdim etish.</p>
-                </div>
-                <div class="card">
-                    <h3>Darsliklar</h3>
-                    <p>Boshlang'ich fanlar uchun darsliklar, misollar va tushuntirishlar bilan to'ldirilgan.</p>
-                </div>
-                <div class="card">
-                    <h3>Video darslar</h3>
-                    <p>O'qituvchi videolari orqali mavzularni oddiy va vizual tarzda o'rganing.</p>
+                <span>1-11 sinflar uchun ta'lim portali</span>
+                <h1 id="hero-title">Maktab darslarini oson, jonli va tizimli o'rganing</h1>
+                <p>Asosiy ta'lim materiallari, fan bo'limlari va sinf yo'nalishlarini qulay tarzda toping. O'qituvchilar, ota-onalar va o'quvchilar uchun foydali resurslar mavjud.</p>
+                <div style="display: flex; flex-wrap: wrap; gap: 14px;">
+                    <a class="btn" href="sinflar.html">Sinflar</a>
+                    <a class="btn-secondary" href="boshlang'ich.html">Fanlar</a>
                 </div>
             </div>
         </section>
 
-        <section class="features">
-            <h2>Qanday ishlaydi</h2>
-            <ul>
-                <li>Har bir sinf uchun alohida o'quv rejasi.</li>
-                <li>O'qituvchilar va ota-onalar uchun tezkor axborot.</li>
-                <li>Sinflar va kutubxona bo'limlariga oson kirish.</li>
-            </ul>
+        <section class="section-intro">
+            <span>Online ta'lim</span>
+            <h2>Maktab darslarini aniqroq tushuning</h2>
+            <p>1-11 sinflar uchun har bir fan bo'yicha strukturali darsliklar, taqdimotlar va qo'llanmalar. Boshlang'ich sinfdan boshlab yuqori sinfga qadar o'quv jarayonini soddalashtiramiz.</p>
         </section>
 
-        <footer id="boglanish">
-            <p>Manzil: O'zbekiston, Toshkent shahri</p>
-            <p>Telefon: +998 90 123 45 67</p>
-            <p>Email: info@maktab.uz</p>
-        </footer>
+        <section class="grade-grid" aria-label="Sinf guruhlari">
+            <article class="grade-card">
+                <h3>1-4 sinflar</h3>
+                <p>Rang-barang va interaktiv boshlang'ich resurslar, o'qish va matematika uchun qulay materiallar.</p>
+            </article>
+            <article class="grade-card">
+                <h3>5-7 sinflar</h3>
+                <p>O'rta sinf fanlari uchun amaliy topshiriqlar, tabiat, ona tili va ingliz tili bo'limlari.</p>
+            </article>
+            <article class="grade-card">
+                <h3>8-11 sinflar</h3>
+                <p>Yuqori sinflar uchun chuqurroqqa tushuncha, nazorat ishlar va sinovga tayyorlov bo'limi.</p>
+            </article>
+        </section>
+
+        <section class="section-intro">
+            <span>Fanlar bo'limi</span>
+            <h2>Har bir fan uchun alohida sahifa</h2>
+            <p>Matematika, ingliz tili, tabiat, jismoniy tarbiya, texnologiya, o'qish va odobnoma bo'limlari bilan o'quv resurslarini tez toping.</p>
+        </section>
+
+        <section class="subject-grid" aria-label="Fanlar bo'limi">
+            <a class="subject-card" href="matematika.html">
+                <h3>Matematika</h3>
+                <p>Asosiy formulalar, masalalar va tezkor tushuntirishlar.</p>
+            </a>
+            <a class="subject-card" href="ingliz-tili.html">
+                <h3>Ingliz tili</h3>
+                <p>So'z boyligi, grammatika va muloqot ustida ishlash.</p>
+            </a>
+            <a class="subject-card" href="tabiat.html">
+                <h3>Tabiat</h3>
+                <p>Biologiya, geografiya va atrof-muhit bo'yicha qiziqarli mavzular.</p>
+            </a>
+            <a class="subject-card" href="jismoniy-tarbiya.html">
+                <h3>Jismoniy tarbiya</h3>
+                <p>Sog'liq va jismoniy mashqlar bo'yicha amaliy maslahatlar.</p>
+            </a>
+            <a class="subject-card" href="texnologiya.html">
+                <h3>Texnologiya</h3>
+                <p>Yangi texnologiyalar, ijodiy loyihalar va ishchi ko'nikmalar.</p>
+            </a>
+            <a class="subject-card" href="odobnoma.html">
+                <h3>Odobnoma</h3>
+                <p>Axloq, maktab qoidalari va ijtimoiy madaniyat.</p>
+            </a>
+        </section>
+
+        <section class="cards">
+            <article class="feature-card">
+                <h3>O'quvchilarga</h3>
+                <p>Oson tushunarli darslar, interaktiv vazifalar va mustahkamlash mashqlari.</p>
+            </article>
+            <article class="feature-card">
+                <h3>O'qituvchilarga</h3>
+                <p>Darsni tez rejalashtirish va sinf uchun mos resurslarni topish uchun ideal platforma.</p>
+            </article>
+            <article class="feature-card">
+                <h3>Ota-onalarga</h3>
+                <p>Bolalarni qo'llab-quvvatlash va uy vazifalari jarayonini kuzatish uchun kerakli materiallar.</p>
+            </article>
+        </section>
     </main>
+    <footer id="boglanish">
+            <div class="footer-grid">
+                <div>
+                    <p><strong>Manzil:</strong> O'zbekiston, Toshkent shahri</p>
+                    <p><strong>Telefon:</strong> +998 90 123 45 67</p>
+                    <p><strong>Email:</strong> info@maktab.uz</p>
+                </div>
+                <div class="footer-links">
+                    <a href="index.html">Bosh sahifa</a>
+                    <a href="sinflar.html">Sinflar</a>
+                    <a href="boshlang'ich.html">Fanlar</a>
+                    <a href="index.html#boglanish">Bog'lanish</a>
+                </div>
+            </div>
+            <div class="footer-bottom">© 2026 Maktab Ta'lim Portali. 1-11 sinflar uchun moslashtirilgan resurslar.</div>
+        </footer>
+    <script src="script.js" defer></script>
 </body>
 
 </html>
